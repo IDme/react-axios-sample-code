@@ -1,0 +1,15 @@
+STEPS
+
+1. make a get request to the api
+2. exchange authorization code
+3. post that data
+
+
+
+
+
+
+
+
+NOTES
+svg files are harder to use in react

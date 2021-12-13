@@ -1,0 +1,9 @@
+.idmebutton {
+  width: 15%;
+  height: auto;
+}
+
+.errorMessage {
+  font-size: 14px;
+  padding-bottom: 10%;
+}
