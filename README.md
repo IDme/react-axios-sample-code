@@ -8,9 +8,13 @@
     - NPM
     - CSS
 
-To run this project, navigate to the project directory and run:
+This project needs Node.js `^22.13`, `^24` or `>=26`. Set your client ID, redirect URI and scopes in `src/button.jsx`, then navigate to the project directory and run:
+
+`npm install`
 
 `npm start`
+
+The app opens at http://localhost:3000/, so register that as your redirect URI. Run the tests with `npm test`.
 
 Continue through the below steps to see a Successful Verification or Unsuccessful Verification
 

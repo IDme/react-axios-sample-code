@@ -1,4 +1,5 @@
 import React from "react";
+import verifyButton from "./verify.svg";
 
 const errorCodes = {
   'access_denied': 'You have denied the consent to release data to the partner. Please verify again.',
@@ -33,7 +34,7 @@ function Button() {
       <p>{location && displayMessage} </p>
       </div>
       <a href={endpoint}>
-        <img src="https://developers.id.me/assets/buttons/verify-32b84e457998bb752606ed89415338ec7aec19954ee1d3d4bfa002dd307ad433.svg" />
+        <img src={verifyButton} alt="Verify with ID.me" />
       </a>
     
     </div>
